@@ -1,0 +1,55 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-1, .step-2 {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 10px;
+
+    padding: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+.singleBox {
+    width: 150px;
+    height: 150px;
+}
+
+.grid-box {
+    border:2px solid gray;
+    cursor: pointer;
+}
+
+.background-empty {
+    background: #d8d8d8;
+}
+
+.background-player1 {
+    background: #00ad4e;
+}
+
+.background-player2 {
+    background: #dd3b09;
+}
